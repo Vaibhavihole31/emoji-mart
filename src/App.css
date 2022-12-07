@@ -1,68 +1,149 @@
-.app-title{
+.app-title {
   text-align: center;
   margin: 0;
 }
 
-.app-title-contanier{
+.app-title-contanier {
   background-color: white;
   width: 300px;
   padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 5px 5px 10px 2px gray;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 10px 2px gray;
 }
 
-.main-emjio-contaner{
+.main-emjio-contaner {
   background-color: white;
   height: 250px;
   width: 250px;
   display: block;
-  padding:10px;
+  padding: 10px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 100px;
+  margin-top: 90px;
   border-radius: 20px;
   border: 1px solid black;
   box-shadow: 5px 5px 10px 2px gray;
 }
 
-.main-emjio-contaner:hover{
-   box-shadow: 7px 7px 9px 3px gray;
+.main-emjio-contaner:hover {
+  box-shadow: 7px 7px 9px 3px gray;
 }
 
-
-.main-emoji{
+.main-emoji {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-size: 150px;
 }
 
-.emoji-contanier{
+.emoji-contanier {
   background-color: white;
-  display: flex;
+  width: 300px;
+  padding: 5px;
   justify-content: space-evenly;
-  margin-top: 80px;
-  width: 50%;
+  margin-top: 90px;
+  border-radius: 10px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 30px;
   box-shadow: 5px 5px 10px 2px gray;
 }
 
-.emoji-item{
+.emoji-item {
   font-size: 10px;
   margin: 10px;
 }
 
-.item{
-  height: 50px;
+.item {
+  height: 40px;
 }
 
-.emoji-item:hover{
+.emoji-item:hover {
   transform: scale(1.4);
+}
+
+.colors-container{
+  margin-top: 170px;
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 3px  gray;
+}
+
+.btn-yellow{
+  padding: 5px;
+  margin: 3px;
+  width: 90px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  background-color: #efad19;
+  box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.btn-blue{
+  padding: 5px;
+  margin: 3px;
+  width: 90px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  background-color: #61DBFB;
+  box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.btn-green{
+  padding: 5px;
+  margin: 3px;
+  width: 90px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background-color: #3C873A;
+  box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.btn-purpule{
+  padding: 5px;
+    margin: 3px;
+    width: 90px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #563d7c;
+    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.btn-black{
+  padding: 5px;
+    margin: 3px;
+    width: 90px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #171515;
+    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.size-container{
+  background-color: white;
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 3px  gray;
+  margin-top: 50px;
+}
+
+.size-slider{
+  width: 100%;
 }
